@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ev-insight-iq/static/css/main.73a231ed.css",
-    "main.js": "/ev-insight-iq/static/js/main.c79c58c8.js",
+    "main.js": "/ev-insight-iq/static/js/main.ce1508c4.js",
     "static/js/787.f055211e.chunk.js": "/ev-insight-iq/static/js/787.f055211e.chunk.js",
     "index.html": "/ev-insight-iq/index.html",
     "main.73a231ed.css.map": "/ev-insight-iq/static/css/main.73a231ed.css.map",
-    "main.c79c58c8.js.map": "/ev-insight-iq/static/js/main.c79c58c8.js.map",
+    "main.ce1508c4.js.map": "/ev-insight-iq/static/js/main.ce1508c4.js.map",
     "787.f055211e.chunk.js.map": "/ev-insight-iq/static/js/787.f055211e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73a231ed.css",
-    "static/js/main.c79c58c8.js"
+    "static/js/main.ce1508c4.js"
   ]
 }
