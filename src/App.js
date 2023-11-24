@@ -9,37 +9,44 @@ const App = () => {
   return (
     <div>
       <nav className="nav">
-        <Link id="highlight" className="navItem" to="/">
+        <Link id="highlight" className="navItem" to="/ev-insight-iq">
           EVInsightIQ
         </Link>
         <Link
           select
-          id={useMatch("/regional-detail") ? "selected" : null}
+          id={useMatch("/ev-insight-iq/regional-detail") ? "selected" : null}
           className="navItem"
-          to="/regional-detail"
+          to="ev-insight-iq/regional-detail"
         >
           Regional Detail
         </Link>
         <Link
-          id={useMatch("/ev-trends") ? "selected" : null}
+          id={useMatch("ev-insight-iq/ev-trends") ? "selected" : null}
           className="navItem"
-          to="/ev-trends"
+          to="ev-insight-iq/ev-trends"
         >
           EV Trends
         </Link>
         <Link
-          id={useMatch("/charging-infrastructure") ? "selected" : null}
+          id={
+            useMatch("ev-insight-iq/charging-infrastructure")
+              ? "selected"
+              : null
+          }
           className="navItem"
-          to="/charging-infrastructure"
+          to="ev-insight-iq/charging-infrastructure"
         >
           Charging Infrastructure
         </Link>
       </nav>
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/regional-detail" element={<Chart1 />} />
-        <Route path="/ev-trends" element={<Chart2 />} />
-        <Route path="/charging-infrastructure" element={<Chart3 />} />
+        <Route path="/ev-insight-iq" element={<Main />} />
+        <Route path="/ev-insight-iq/regional-detail" element={<Chart1 />} />
+        <Route path="/ev-insight-iq/ev-trends" element={<Chart2 />} />
+        <Route
+          path="/ev-insight-iq/charging-infrastructure"
+          element={<Chart3 />}
+        />
       </Routes>
     </div>
   );
