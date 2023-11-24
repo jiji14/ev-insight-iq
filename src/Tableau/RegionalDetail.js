@@ -7,7 +7,7 @@ function RegionalDetail() {
 
   const initTableau = () => {
     const vizUrl =
-      "http://public.tableau.com/views/RegionalSampleWorkbook/Storms";
+      "https://public.tableau.com/views/RegionalSampleWorkbook/Storms";
     let viz = new window.tableau.Viz(vizContainer.current, vizUrl);
   };
 
